@@ -61,4 +61,4 @@ elif payment_type.lower() in ('card on file', 'on file', 'saved', 'stored', 'on-
     print('$' + ("{:0.2f}".format(irs_cut)) + ' goes to the IRS and $' + ("{:0.2f}".format(square_cut)) + ' goes to Square')
     print() 
 else:
-    print('Sorry, transaction type ' + '"' + payment_type + '"' ' not found. \nPlease correct and try again.') #double quotes for emphasis
+    print('\nSorry, transaction type ' + '"' + payment_type + '"' ' not found. \nPlease correct and try again.\n') #double quotes for emphasis
