@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+import datetime
+timestamp = datetime.datetime.now().strftime("%Y-%m-%d hat %H:%M:%S")
+print (timestamp)
 
 self_employed_tax = .15
 
